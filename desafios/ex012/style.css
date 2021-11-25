@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'orange';
+    src: url('fontes/idroid.otf')format('truetype');
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    background-attachment: fixed;
+    margin:auto;
+}
+
+   
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #85D0A5;
+    margin: auto;
+}
+header{
+    background-image: linear-gradient(to right,#2D8A53,#21693F, #134526);
+    color: white;
+    padding: 10px;
+    
+}
+
+
+nav > a{
+    text-align: left;
+    margin: 10px;
+    padding: 8px;
+
+}
+
+nav > h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 20px;
+    font-size: 2em;
+    
+}
+nav > p{
+    text-align: center;
+    margin: 10px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    padding: 8px;
+    color: white;
+    background-color: #134526;
+    border-radius: 4px;
+    
+
+}
+main{
+    background: #85D0A5;
+    margin: auto;
+
+    min-width: 320px;
+    max-width: 1900px;
+    border-width: 10px;
+}
+section{
+    background-color: white;
+    margin: auto;
+
+}
+section > h2{
+    font-family: orange, 'Courier New', Courier, monospace;
+    margin-top: 0%;
+    padding: 10px;
+    color: #189c5a;
+    
+}
+section > h3{
+    font-family: orange, 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10%;
+    color: #189c5a;
+    background-image: linear-gradient(to right,#85D0A5, #A2DABA,#B8E0C7,#cde5d669,
+    #DCE5DF);
+}
+
+.secp{
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Pimg{
+    text-align: center;
+    margin: auto;
+
+}
+figure{
+    background-color: #134526;
+    padding: 10px;
+}
+.embed-container {
+    position: relative;
+    padding-bottom: 46%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
+
+.tittle3{
+    border-radius: 5px 5px 0px 0px;
+    background-color: #248641;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
+    
+}
+
+#div1{
+    
+    background-color: #8bebb3;
+    margin: auto;
+}
+div.left{
+ 
+    text-align: left;
+}
+
+div.right{
+    text-align: right;
+}
+
+div > p{
+    padding: 1% 3% 1% 3%;
+    background-color: #77c598;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align: justify;
+}
+.ul1{
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: #8bebb3;
+    text-decoration: underline;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    
+}
+
+.ul2{
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: #8bebb3;
+    text-decoration: underline;
+    padding-right: 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+.p1{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    
+}
+
+#pbot{
+    text-align: justify;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 5px;
+    border-radius: 10px
+}
+
+footer{
+    text-align: center;
+    background-color: #134526;
+    color: white;
+}
+
+footer > p{
+    padding: 10px;
+    margin-top: 15px;
+}

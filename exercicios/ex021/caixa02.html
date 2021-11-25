@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: auto;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        article > p{
+            text-align: justify;
+            
+        }
+
+        article > h2{
+            text-align: right;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        article > aside{
+            text-align: end;
+        }
+
+        #assuntos{
+            text-align: justify;
+            box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.418);
+            background-color: lightgray;
+            border-radius: 0px 38px 0px 29px
+            
+        }
+        #noticias{
+            box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.418);
+            border-radius: 0px 38px 0px 29px
+             
+        }
+        
+        .titulo2{
+            text-align: right;
+            margin: 10px;
+            padding: 10px;
+        }
+
+
+        nav{
+            background-color: rgb(59, 58, 58);
+            padding: 3px;
+            box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.418);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        section > p{
+            padding: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 0px 38px 0px 29px
+            
+        }
+
+        article > aside{
+            background-color: rgb(143, 142, 142);
+        }
+
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0%;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin: 10px auto 10px auto;
+            padding: 5px;
+        }
+        div > img{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2 class="titulo2">Futebol e suas tecnologias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, similique. Quis obcaecati sequi exercitationem nesciunt voluptates libero aperiam accusantium et! Ratione ipsam quis exercitationem aliquam iure enim soluta voluptates vitae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum itaque autem illum, nobis, quaerat nemo aut, nisi corrupti maiores qui nulla tempora blanditiis asperiores dolore laboriosam aliquid debitis iste quibusdam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo deleniti, reprehenderit alias dignissimos aspernatur odio adipisci illo earum nam porro, pariatur cum voluptate. Inventore deleniti quod iste, aliquam dolor sapiente!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere adipisci reprehenderit numquam nisi! Recusandae voluptates illum cumque vitae perspiciatis doloribus, expedita totam corrupti adipisci culpa velit facere? Debitis, dolorum voluptas.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam asperiores sint expedita! Nemo, quia! Assumenda nostrum iure pariatur nulla. Nam laboriosam deleniti animi similique sequi? Quaerat voluptatibus possimus voluptatem beatae.</p>
+                <aside>
+                    <p>Artigo escrito por Robert Santos</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Roty</p>
+    </footer>
+    <div id="bola">
+        <img src="favicon.ico" alt="icon">
+
+    </div>
+</body>
+</html>
