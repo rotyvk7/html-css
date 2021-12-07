@@ -1,0 +1,24 @@
+body{
+    background-image: url(imagens/espaco.jpg);
+    background-size: cover;
+
+    height: 96vh;
+    
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+#sobrepor{
+    background-image: url(imagens/astronauta.png);
+    background-size: 100% 100%;
+
+    position: absolute;
+    height: 600px;
+    width: 600px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
